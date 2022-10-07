@@ -4,7 +4,20 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("welcome to Basic Core Program!");
-        }
+            // Console.WriteLine("welcome to Basic Core Program!");
+           
+                Console.WriteLine("please enter your choice");
+                Console.WriteLine("1.FlipCoin\n");
+                int choice = Convert.ToInt32(Console.ReadLine());
+                switch (choice)
+                {
+                    case 1:
+                        FlipCoin.CalculatePercent();
+                        break;
+                 
+                    default:
+                        break;
+                }
+            }
     }
 }
