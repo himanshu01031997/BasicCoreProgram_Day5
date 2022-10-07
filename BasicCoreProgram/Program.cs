@@ -6,7 +6,7 @@
         {
             // Console.WriteLine("welcome to Basic Core Program!");
            
-                Console.WriteLine("please enter your choice");
+                Console.WriteLine("Please enter your choice");
                 Console.WriteLine("1.FlipCoin\n");
                 int choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
