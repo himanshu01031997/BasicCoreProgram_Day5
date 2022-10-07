@@ -7,7 +7,7 @@
             // Console.WriteLine("welcome to Basic Core Program!");
            
                 Console.WriteLine("Please enter your choice");
-                Console.WriteLine("1.FlipCoin\n2.Leapyear\n3.HarmonicNo\n4.EvenOrOdd\n5.CheckAlphabate\n6.SwapNo\n");
+                Console.WriteLine("1.FlipCoin\n2.Leapyear\n3.HarmonicNo\n4.EvenOrOdd\n5.CheckAlphabate\n6.SwapNo\n7.LargestNo\n");
                 int choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
                 {
@@ -29,6 +29,9 @@
                     case 6:
                        SwapNo.SwappingTwoNo();
                        break;
+                    case 7:
+                    LargestNo.FindLargest();
+                    break;
                     default:
                        break;
                 }
