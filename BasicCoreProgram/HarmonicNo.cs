@@ -12,7 +12,7 @@ namespace BasicCoreProgram
         {
             int num, count;
             double sum = 0;
-            Console.WriteLine("calculate the sum of harmonic no");
+            Console.WriteLine("Calculate the sum of harmonic no");
             Console.WriteLine("------------------------------");
             Console.WriteLine("enter the value of Number:");
             num = Convert.ToInt32(Console.ReadLine());
